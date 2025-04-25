@@ -74,3 +74,23 @@ export const categories = [
         bgColor: "#E7F2FF",
     },
 ]
+
+export const dummyProducts = [
+    {
+        _id: "001",
+        name: "White Stiletto",
+        category: "Heels",
+        price: 500,
+        offerPrice: 399,
+        rating: 4,
+        image:[heels,'','',''],
+        description: [
+            "This is a description of the product. It is a very good product. You should buy it.",
+            "This is a description of the product. It is a very good product. You should buy it.",
+            "This is a description of the product. It is a very good product. You should buy it.",
+        ],
+        createdAt: "2025-04-24T12:00:00Z",
+        updatedAt: "2025-04-24T12:00:00Z",
+        inStock: true,
+    },
+]
