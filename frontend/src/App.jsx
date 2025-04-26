@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import { useAppContext } from './context/AppContext'
 import Login from './components/Login'
 import AllProduct from './pages/AllProducts/AllProduct'
+import ProductCategory from './pages/ProductCategory/ProductCategory'
 
 function App() {
 
@@ -25,6 +26,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/products' element={<AllProduct />} />
+          <Route path='/products/:category' element={<ProductCategory />} />
+
         </Routes>
       </div>
 
