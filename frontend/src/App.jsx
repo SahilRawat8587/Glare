@@ -10,13 +10,13 @@ import Login from './components/Login'
 function App() {
 
   const isSellerPath = useLocation().pathname.includes('/seller');
-  const {showUserLogin} = useAppContext
+  const {showUserLogin} = useAppContext();
 
   return (
     <div>
       {isSellerPath ? null : <Navbar /> }
       
-      {showUserLogin ? <Login /> : null }
+       {showUserLogin ? <Login /> : null} 
 
       <Toaster />
 
