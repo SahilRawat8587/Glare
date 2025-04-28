@@ -65,17 +65,17 @@ export const AppContextProvider = ({children}) =>{
         
     }
 
-    // Cart Item Count Function
+    //Get Cart Item Count Function
     const getCartCount = () => {
-        let totalcount = 0;
+        let totalCount = 0;
         for(const item in cartItems){
-            totalcount += cartItems[item];
+            totalCount += cartItems[item];
         }
-        return totalcount;
+        return totalCount;
     }
 
     //Total Cart Price or Amount
-    const getCartAmout = () => {
+    const getCartAmount = () => {
         let totalAmount = 0;
         for (const items in cartItems){
             let itemInfo = products.find((product)=> product._id === items);
@@ -92,7 +92,9 @@ export const AppContextProvider = ({children}) =>{
         featchProducts()
     }, []);
 
-    const value = {navigate, user, setuser, setIsSeller, isSeller, showUserLogin, setshowUserLogin, products, currency, addToCart, updateCartItem, removeFromCart, cartItems, setCartItems, searchQuery, setSearchQuery};
+    const value = {navigate, user, setuser, setIsSeller, isSeller, showUserLogin, setshowUserLogin, products, currency, addToCart, updateCartItem, removeFromCart, cartItems, setCartItems, searchQuery, setSearchQuery,
+        getCartCount, getCartAmount
+    };
 
     return <AppContext.Provider value={value}>
         {children}

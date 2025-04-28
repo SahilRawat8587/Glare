@@ -75,6 +75,41 @@ export const categories = [
     },
 ]
 
+export const dummyAddress = [
+    {
+        id: 1,
+        street: "123 Main Street",
+        city: "New York",
+        state: "NY",
+        country: "USA",
+        zipCode: "10001",
+    },
+    {
+        id: 2,
+        street: "456 Elm Street",
+        city: "Los Angeles",
+        state: "CA",
+        country: "USA",
+        zipCode: "90001",
+    },
+    {
+        id: 3,
+        street: "789 Oak Avenue",
+        city: "Chicago",
+        state: "IL",
+        country: "USA",
+        zipCode: "60601",
+    },
+    {
+        id: 4,
+        street: "101 Pine Lane",
+        city: "Houston",
+        state: "TX",
+        country: "USA",
+        zipCode: "77001",
+    },
+]
+
 export const dummyProducts = [
     {
         _id: "001",
