@@ -1,5 +1,5 @@
 import logo from "./Logo (2).png";
-import main_banner from "./Banner_bg.png";
+import main_banner from "./Palma.png";
 import main_banner_mobile from "./Banner_bg_sm.png";
 import heels from "./White_Stiletto_High_Heel_Ankle_Strap_Sandals___30____liked_on_Polyvore-removebg-preview.png";
 import sneakers from "./download__4_-removebg-preview.png";
