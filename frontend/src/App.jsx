@@ -10,6 +10,7 @@ import AllProduct from './pages/AllProducts/AllProduct'
 import ProductCategory from './pages/ProductCategory/ProductCategory'
 import ProductDetails from './pages/ProductDetails/ProductDetails'
 import Cart from './pages/Cart/Cart'
+import AddAddress from './pages/AddAddress/AddAddress'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Route path='/products/:category' element={<ProductCategory />} />
           <Route path='/products/:category/:id' element={<ProductDetails />} />
           <Route path='/cart' element={<Cart />} />
+          <Route path='/add-address' element={<AddAddress />} />
 
 
         </Routes>

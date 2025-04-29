@@ -10,12 +10,14 @@ import mules from "./Women_Mules_Designer_Pointed_Toe_Summer_Ladies_Fashion_Slip
 import sliders from "./Vegan_Leather_Crinkled_Vamp_Sandals___SHEIN_USA-removebg-preview.png";
 import widges from "./BLACK_PLATFORM_WEDGE_SLIDE_HEELS_-_BLACK___6-removebg-preview.png";
 import ballet_flats from "./Soft_Leather_Ballet_Shoes_Ballet_Slippers_Dance_Shoes__Toddler_Little_Big_Kid_Women_-removebg-preview.png";
+import address from "./address-illustration-concept.png";
 
 
 export const assets = {
     logo,
     main_banner,
     main_banner_mobile,
+    address,
 }
 
 export const categories = [
