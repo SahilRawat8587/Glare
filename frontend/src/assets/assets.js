@@ -248,3 +248,47 @@ export const footerLinks = [
         ],
     },
 ]
+
+export const dummyOrders = [
+    {
+        _id: "12898trdfgyt34565657980udoe0",
+        userID: " 3245rty9uidjoknrodo287837e",
+        items: [
+            {product: dummyProducts[0],
+            quantity: 2,
+            _id: "1234567890",
+            },
+        ],
+        amount: 500,
+        address: dummyAddress[0],
+        status: "Order Placed",
+        paymentType: "COD",
+        isPaid: false,
+        createdAt: "2025-04-24T12:00:00Z",
+        updatedAt: "2025-04-24T12:00:00Z",
+
+    },
+    {
+        _id: "12898trdfgyt3454567865657980udoe0",
+        userID: " 3245rty9u9876idjoknrodo287837e",
+        items: [
+            {product: dummyProducts[1],
+            quantity: 2,
+            _id: "1234434567890",
+            },
+            {product: dummyProducts[2],
+                quantity: 4,
+                _id: "1234434567890",
+                },
+        ],
+        amount: 5000,
+        address: dummyAddress[0],
+        status: "Order Placed",
+        paymentType: "COD",
+        isPaid: false,
+        createdAt: "2025-04-24T12:00:00Z",
+        updatedAt: "2025-04-24T12:00:00Z",
+
+    },
+
+]
