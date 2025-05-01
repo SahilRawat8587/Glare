@@ -84,7 +84,7 @@ export const dummyAddress = [
         city: "New York",
         state: "NY",
         country: "USA",
-        zipCode: "10001",
+        zipcode: "10001",
     },
     {
         id: 2,
@@ -92,7 +92,7 @@ export const dummyAddress = [
         city: "Los Angeles",
         state: "CA",
         country: "USA",
-        zipCode: "90001",
+        zipcode: "90001",
     },
     {
         id: 3,
@@ -100,7 +100,7 @@ export const dummyAddress = [
         city: "Chicago",
         state: "IL",
         country: "USA",
-        zipCode: "60601",
+        zipcode: "60601",
     },
     {
         id: 4,
@@ -108,7 +108,7 @@ export const dummyAddress = [
         city: "Houston",
         state: "TX",
         country: "USA",
-        zipCode: "77001",
+        zipcode: "77001",
     },
 ]
 
